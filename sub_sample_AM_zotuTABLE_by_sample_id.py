@@ -5,6 +5,8 @@ Input is: 1) the downloaded table, comma seperated, typically with sampleID, ASV
 Output is the same format and a table comprising a subset of the original containing only the desired sample ID's
 in the `Sample_only` column
 
+usage:  python sub_sample_AM_zotuTABLE_by_sample_id.py
+
 '''
 import readline
 readline.parse_and_bind("tab: complete")
