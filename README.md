@@ -8,3 +8,5 @@ miscellaneous scripts to share.  See detailed comments in script comments for us
 **add_sample_name.sh**:  Add Australian microbiome sampleID, plate ID and amplicon information to the definition lines of fasta formatted sequence files
   
 **sub_sample_AM_zotuTABLE_by_sample_id.py**: Subsample an abundance table downloaded from Australian Micrbiome processed data portal to keep only sampleID's of interest.
+
+**convert_CSBP_to_AM.py**: Convert CSBP analysis metadata sheets for sample types `SOIL` or `WATER` to a format compatible with the AM metadata database. Input is one or more CSBP excel spreadsheets, output is one more AM formatted excel spreadsheets. Output filenames mirror input filenames but with suffix `*_AM_<SAMPLE_TYPE>_format_UPDATE.xlsx`. 
