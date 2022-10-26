@@ -152,7 +152,7 @@ for filename in filenames:
             #Define the ouput columns and fill for CSBP water methods columns
             column_order = ['sample_id']
             analysis_columns = ['ammonium', 'bicarbonate', 'carbonate', 'chloride', 'conductivity_aqueous', 'icp_te_boron', 'icp_te_calcium', 'icp_te_copper', 'icp_te_iron', 'icp_te_manganese', 'icp_te_phosphorus', 'icp_te_sulfur', 'icp_te_zinc', 'magnesium', 'nitrate_nitrite', 'ph', 'potassium', 'sodium']
-            method_number = "2.1"
+            method_number = "meth_2.1"
         
         ############ SOIL Files ############
         if len(set(known_soil_cols).difference(set(incoming_cols))) > 0:
@@ -176,7 +176,7 @@ for filename in filenames:
             #Define the ouput columns and fill for CSBP SOIL methods columns
             column_order = ['sample_id']
             analysis_columns = ['color', 'gravel', 'texture', 'ammonium_nitrogen_wt', 'nitrate_nitrogen', 'phosphorus_colwell', 'potassium_colwell', 'sulphur', 'organic_carbon', 'conductivity', 'ph', 'ph_solid_h2o', 'dtpa_copper', 'dtpa_iron', 'dtpa_manganese', 'dtpa_zinc', 'exc_aluminium', 'exc_calcium', 'exc_magnesium', 'exc_potassium', 'exc_sodium', 'boron_hot_cacl2', 'total_nitrogen', 'clay', 'coarse_sand', 'fine_sand', 'sand', 'silt']
-            method_number = "2.1"
+            method_number = "meth_2.1"
         #if no matches we will throw a warning to advise and move on
         if water_file == False and soil_file == False:
             print("WARNING: " + filename + " does not appear to be a properly formatted CSBP water or soil analysis file")
