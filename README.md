@@ -10,3 +10,5 @@ miscellaneous scripts to share.  See detailed comments in script comments for us
 **sub_sample_AM_zotuTABLE_by_sample_id.py**: Subsample an abundance table downloaded from Australian Micrbiome processed data portal to keep only sampleID's of interest.
 
 **convert_CSBP_to_AM.py**: Convert CSBP analysis metadata sheets for sample types `SOIL` or `WATER` to a format compatible with the AM metadata database. Input is one or more CSBP excel spreadsheets, output is one more AM formatted excel spreadsheets. Output filenames mirror input filenames but with suffix `*_AM_<SAMPLE_TYPE>_format_UPDATE.xlsx`. 
+
+**metagenomeFileCollector.py**:  Extract and collect specific file types from SQM run outputs.  File types to collect and sample ID's will be from metagenome data request info.  See script for inputs etc.
